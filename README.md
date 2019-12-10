@@ -32,7 +32,7 @@ format: `<HOST_DIR>:<CONTAINER_DIR>[:PERMISSIONS]`.
 
 | Container path  | Permissions | Description |
 |-----------------|-------------|-------------|
-|`/config`| rw | This is where the application stores its configuration, log and any files needing persistency. |
+|`/config`| rw | This is where the application stores its configuration. Expects `rclone.conf` to be present. |
 |`/media`| rw | This is where downloaded files are stored, or where you put files in your host for uploading. |
 
 ### Ports
