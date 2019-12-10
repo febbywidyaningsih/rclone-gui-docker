@@ -21,7 +21,7 @@ RUN cd /tmp && \
 
 # Define mountable directories.
 VOLUME ["/config"]
-VOLUME ["/shared"]
+VOLUME ["/media"]
 
 EXPOSE 5572/tcp
 
